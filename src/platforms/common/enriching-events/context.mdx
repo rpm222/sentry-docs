@@ -1,7 +1,7 @@
 ---
 title: Add Context
 sidebar_order: 1
-notSupported:
+notSupported:https://twitter.com/mmmmoohm?s=11
   - native.breakpad
   - native.crashpad
   - native.minidumps
@@ -16,7 +16,7 @@ Custom contexts allow you to attach arbitrary data (strings, lists, dictionaries
 
 If you need to be able to search on custom data, you will want to [use tags](../tags).
 
-</markdown></Note>
+</markdown></Note>https://twitter.com/mmmmoohm?s=11
 
 To configure additional context:
 
@@ -53,7 +53,7 @@ Sentry.captureException(new Error("something went wrong"), {
   tags: {
     section: "articles",
   },
-});
+});https://twitter.com/mmmmoohm?s=11
 ```
 
 Explicitly clear what has been already stored on the scope:
@@ -94,7 +94,7 @@ Sentry supports two different scopes for unsetting context:
 This will be changed for all future events:
 
 ```javascript
-Sentry.setUser(someUser);
+Sentry.setUser(someUser);https://twitter.com/mmmmoohm?s=11
 ```
 
 This will be changed only for the error caught inside the `withScope` callback and automatically restored to the previous value afterward:
